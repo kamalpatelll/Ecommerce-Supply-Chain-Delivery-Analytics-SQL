@@ -4,8 +4,13 @@
   <img src="https://github.com/user-attachments/assets/8fdb56f3-4c21-4ed6-b367-c55391d9847a" alt="Centered Image">
 </p>
 
-## 📌 Executive Summary
-This project analyzes **100K+ order fulfillment records** to identify operational bottlenecks, calculate On-Time In-Full (OTIF) delivery performance, and model revenue exposure resulting from Service Level Agreement (SLA) breaches. Using MySQL, the analysis evaluates last-mile logistics constraints, seller reliability scores, and external factors like weather and traffic congestion to provide actionable supply chain insights.
+## 🎯 Business Problem
+In e-commerce logistics, fulfillment delays and Service Level Agreement (SLA) breaches are leading drivers of customer churn and revenue loss. Supply chain teams often struggle to determine whether delivery bottlenecks stem from seller processing latency, carrier routing inefficiencies, geographic coverage constraints, or adverse environmental friction (e.g., weather and traffic jams).
+
+Without clear operational insights, businesses risk unmitigated financial exposure—particularly for high-value and high-priority orders—and fail to address underperforming sellers or long-distance dispatch delays.
+
+## 📌 Executive Summary & Project Overview
+This project performs end-to-end supply chain analytics on 100,000+ e-commerce fulfillment records using MySQL to evaluate On-Time In-Full (OTIF) delivery performance, identify operational bottlenecks, and quantify financial risk associated with Service Level Agreement (SLA) breaches. By modeling interactions among order specifics, seller reliability scores, shipping distance tiers, and environmental friction (weather and traffic congestion), the analysis identifies key drivers of last-mile dispatch latency and revenue exposure for high-priority orders ($> 200). The resulting queries and framework provide data-driven insights to optimize carrier routing, reposition regional inventory, and safeguard high-value customer accounts.
 
 ---
 
